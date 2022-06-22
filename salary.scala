@@ -2,6 +2,15 @@ package com.learn.proj
 
 class salary(p1:Int, p2:Int, p3:Int,sal:Double){
 
+  def this(p1:Int, p2:Int, p3:Int)
+    {
+      this(p1,p2,p3,800)
+    }
+
+  def this(p1:Int, p2:Int)
+  {
+    this(p1,p2,555,5000)
+  }
   var hikePercentage:Int=p1;
   var fineAmt:Int=p2;
   var incentive:Int=p3;
